@@ -1,0 +1,15 @@
+// This template is used for convert SQL Server column definition to C# private fields declaration.
+
+// Pattern
+.*\[(\w+)\] \[(\w+)\].*
+
+
+// C# Codes
+string type = Match(2);
+if (type.ToLower()=="tinyint") type="int";
+if (type.ToLower()=="datetime") type="DateTime";
+if (type.ToLower()=="datetimeoffset") type="DateTime";
+if (type.ToLower()=="varchar") type="string";
+if (type.ToLower()=="nvarchar") type="string";
+if (type.ToLower()=="uniqueidentifier") type="Guid";
+return string.Format("public {0} {1} {{get; set;}}", type, Match(1));

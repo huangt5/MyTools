@@ -1,0 +1,81 @@
+mKyb95HGv5woUqNgjMoj6A==
+-		encryptedBytes	{byte[16]}	byte[]
+		[0]	152	byte
+		[1]	172	byte
+		[2]	155	byte
+		[3]	247	byte
+		[4]	145	byte
+		[5]	198	byte
+		[6]	191	byte
+		[7]	156	byte
+		[8]	40	byte
+		[9]	82	byte
+		[10]	163	byte
+		[11]	96	byte
+		[12]	140	byte
+		[13]	202	byte
+		[14]	35	byte
+		[15]	232	byte
+
+-		decrypted.ToArray()	{byte[5]}	byte[]
+		[0]	110	byte
+		[1]	111	byte
+		[2]	116	byte
+		[3]	101	byte
+		[4]	49	byte
+
+
+
+-		keyBytes	{byte[32]}	byte[]
+		[0]	166	byte
+		[1]	101	byte
+		[2]	164	byte
+		[3]	89	byte
+		[4]	32	byte
+		[5]	66	byte
+		[6]	47	byte
+		[7]	157	byte
+		[8]	65	byte
+		[9]	126	byte
+		[10]	72	byte
+		[11]	103	byte
+		[12]	239	byte
+		[13]	220	byte
+		[14]	79	byte
+		[15]	184	byte
+		[16]	160	byte
+		[17]	74	byte
+		[18]	31	byte
+		[19]	63	byte
+		[20]	255	byte
+		[21]	31	byte
+		[22]	160	byte
+		[23]	126	byte
+		[24]	153	byte
+		[25]	142	byte
+		[26]	134	byte
+		[27]	247	byte
+		[28]	247	byte
+		[29]	162	byte
+		[30]	122	byte
+		[31]	227	byte
+
+-		ivBytes	{byte[16]}	byte[]
+		[0]	90	byte
+		[1]	119	byte
+		[2]	209	byte
+		[3]	233	byte
+		[4]	97	byte
+		[5]	45	byte
+		[6]	53	byte
+		[7]	11	byte
+		[8]	55	byte
+		[9]	52	byte
+		[10]	246	byte
+		[11]	40	byte
+		[12]	34	byte
+		[13]	89	byte
+		[14]	183	byte
+		[15]	255	byte
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecurityCenter</string>
+    <string name="root_pwd_hint">Please input root password:</string>
+    <string name="keyword_hint">Search by keyword:</string>
+    <string name="login_button">Login</string>
+    <string name="search_button">Search</string>
+    <string name="data_file_ready">Data file is located at:</string>
+    <string name="data_file_not_found">Can not find data file.</string>
+    <string name="data_file_load_failure">Failed to load security data file.</string>
+    <string name="pwd_wrong">Wrong password!</string>
+    <string name="pwd_verified">Password verified.</string>
+    <string name="back">OK</string><string name="locate_button">Locate data file</string>
+</resources>

@@ -1,0 +1,4 @@
+Pwd hash:  clear pwd -> SHA512 -> BASE64
+Notes encrypt: keyBytes = pwd -> SHA256 
+               ivBytes = keyBytes -> SHA256 -> First 16B
+               clear text -> UTF8 -> AES(keyBytes,ivBytes) -> encrypted
